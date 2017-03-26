@@ -19,10 +19,10 @@ namespace Factory.PizzaStore
 			
 			pizza = CreatePizza(type);
 
-			pizza.Prepare();
-			pizza.Bake();
-			pizza.Cut();
-			pizza.Box();
+			Console.WriteLine(pizza.Prepare());
+			Console.WriteLine(pizza.Bake());
+			Console.WriteLine(pizza.Cut());
+			Console.WriteLine(pizza.Box());
 
 			return pizza;
 		}
